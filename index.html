@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="input-box">
+            <input type="text" readonly>
+            <h3>0</h3>
+        </div>
+        <div class="buttons">
+            <button onclick="AC()">AC</button>
+            <button onclick="deleteNumber()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="button colored-button">%</button>
+            <button class="button colored-button">÷</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button colored-button">×</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button colored-button">-</button>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button colored-button">+</button>
+            <button class="button">.</button>
+            <button class="button">0</button>
+            <button class="button">00</button>
+            <button onclick="calculate()" class="colored-button">=</button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/db65c38b03.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
